@@ -1,0 +1,23 @@
+{
+
+  "description": "Script for converting URLs of academic papers to BYU Library URLs for easy access",
+  "manifest_version": 2,
+  "name": "Paper to BYU Library",
+  "version": "1.0",
+
+  "background": {
+    "scripts": ["script.js"]
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "64": "icons/icon-64.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+
+  "permissions": ["activeTab"]
+
+}
