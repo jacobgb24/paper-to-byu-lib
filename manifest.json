@@ -18,6 +18,11 @@
     }
   },
 
-  "permissions": ["activeTab"]
+  "permissions": [
+    "activeTab",
+    "webRequest",
+    "webRequestBlocking",
+    "*://dl.acm.org/*"
+  ]
 
 }
