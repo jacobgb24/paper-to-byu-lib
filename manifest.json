@@ -22,7 +22,8 @@
     "activeTab",
     "webRequest",
     "webRequestBlocking",
-    "*://dl.acm.org/*"
+    "*://dl.acm.org/*",
+    "*://link.springer.com/*"
   ]
 
 }
