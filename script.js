@@ -25,7 +25,8 @@ chrome.webRequest.onBeforeRequest.addListener(
         // list of known URLs to match. When you add a new one, need to also add it to permissions in manifest.json
         urls: [
             "*://dl.acm.org/*",
-            "*://link.springer.com/*"
+            "*://link.springer.com/*",
+            "*://ieeexplore.ieee.org/*"
         ],
         types: ["main_frame", "sub_frame", "stylesheet", "script", "image", "object", "xmlhttprequest", "other"]
     },

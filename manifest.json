@@ -23,7 +23,8 @@
     "webRequest",
     "webRequestBlocking",
     "*://dl.acm.org/*",
-    "*://link.springer.com/*"
+    "*://link.springer.com/*",
+    "*://ieeexplore.ieee.org/*"
   ]
 
 }
