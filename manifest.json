@@ -18,6 +18,13 @@
     }
   },
 
-  "permissions": ["activeTab"]
+  "permissions": [
+    "activeTab",
+    "webRequest",
+    "webRequestBlocking",
+    "*://dl.acm.org/*",
+    "*://link.springer.com/*",
+    "*://ieeexplore.ieee.org/*"
+  ]
 
 }
