@@ -3,7 +3,7 @@ chrome.browserAction.onClicked.addListener(function(tab) {
     let tabUrl = new URL(tab.url);
 
     if (tabUrl.hostname.endsWith('.erl.lib.byu.edu')) {
-        alert('You\'re already on the BYU library version if this site!');
+        alert('You\'re already on the BYU library version of this site!');
         return;
     }
 
